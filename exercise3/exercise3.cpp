@@ -138,9 +138,9 @@ int main() {
 			cin >> ch;
 
 			switch (ch) {
-			case '1':
-				obj.addNode();
-				break;
+			case '1': {
+
+			}
 			case '2': {
 
 			}
@@ -150,7 +150,7 @@ int main() {
 			case '4':
 				return 0;
 			default:
-				cout << "\nInvalid option" << endl;
+				cout << "Invalid option" << endl;
 				break;
 			}
 		}
